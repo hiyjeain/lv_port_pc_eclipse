@@ -6,3 +6,7 @@
 	path = lv_drivers
 	url = https://github.com/lvgl/lv_drivers.git 
     branch = release/v8.3
+[submodule "lvgl_but_rust"]
+	path = lvgl_but_rust
+    url = git@github.com:hiyjeain/lvgl_but_rust.git
+    branch = release/v8.3r
