@@ -14,7 +14,7 @@ ExternalProject_Add(
         lvgl_but_rust
         DOWNLOAD_COMMAND ""
         CONFIGURE_COMMAND ""
-        BUILD_COMMAND cargo build COMMAND cargo build --release
+        BUILD_COMMAND cargo build COMMAND cargo build --all
         BINARY_DIR "${CMAKE_SOURCE_DIR}/lvgl_but_rust"
         INSTALL_COMMAND ""
         LOG_BUILD ON)
